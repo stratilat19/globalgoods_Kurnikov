@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="globalgoods_Kurnikov-ear" />
+        <module name="globalgoods_Kurnikov-ejb" />
+        <module name="globalgoods_Kurnikov-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="globalgoods_Kurnikov" target="1.7" />
+      <module name="globalgoods_Kurnikov-ear" target="1.7" />
+      <module name="globalgoods_Kurnikov-ejb" target="1.7" />
+      <module name="globalgoods_Kurnikov-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

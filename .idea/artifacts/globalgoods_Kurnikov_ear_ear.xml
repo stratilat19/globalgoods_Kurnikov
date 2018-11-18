@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="globalgoods_Kurnikov-ear:ear">
+    <output-path>$PROJECT_DIR$/globalgoods_Kurnikov-ear/target</output-path>
+    <root id="archive" name="globalgoods_Kurnikov-ear.ear">
+      <element id="artifact" artifact-name="globalgoods_Kurnikov-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

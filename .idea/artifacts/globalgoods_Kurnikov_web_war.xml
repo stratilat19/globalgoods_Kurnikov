@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="globalgoods_Kurnikov-web:war">
+    <output-path>$PROJECT_DIR$/globalgoods_Kurnikov-web/target</output-path>
+    <root id="archive" name="globalgoods_Kurnikov-web.war">
+      <element id="artifact" artifact-name="globalgoods_Kurnikov-web:war exploded" />
+    </root>
+  </artifact>
+</component>

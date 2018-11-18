@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:ui="http://java.sun.com/jsf/facelets"
+   xmlns:f="http://java.sun.com/jsf/core"
+   xmlns:h="http://java.sun.com/jsf/html"
+   template="/WEB-INF/templates/default.xhtml">
+   <ui:define name="content">
+      <h1>Products</h1>
+      <p><a href="#{request.contextPath}/rest/products">REST URL for all products</a></p>
+      <h:outputText value="all table titles are clickable - use them to sort the table (use Shift to sort by several columns)"/>
+      <h:dataTable var="_product" value="#{products}" rendered="#{not empty products}" styleClass="display" id="products" cellspacing="0" width="100%">
+         <h:column>
+            <f:facet name="header">ProductId</f:facet>
+            #{_product.productId}
+         </h:column>
+         <h:column>
+            <f:facet name="header">ProductName</f:facet>
+            #{_product.productName}
+         </h:column>
+         <h:column>
+            <f:facet name="header">SupplierId</f:facet>
+            #{_product.supplierId}
+         </h:column>
+         <h:column>
+            <f:facet name="header">CategoryId</f:facet>
+            #{_product.categoryId}
+         </h:column>
+         <h:column>
+            <f:facet name="header">QuantityPerUnit</f:facet>
+            #{_product.quantityPerUnit}
+         </h:column>
+         <h:column>
+            <f:facet name="header">UnitPrice</f:facet>
+            <h:outputText value="#{_product.unitPrice}">
+               <f:convertNumber type="currency"/>
+            </h:outputText>
+         </h:column>
+         <h:column>
+            <f:facet name="header">UnitsInStock</f:facet>
+            #{_product.unitsInStock}
+         </h:column>
+         <h:column>
+            <f:facet name="header">UnitsOnOrder</f:facet>
+            #{_product.unitsOnOrder}
+         </h:column>
+         <h:column>
+            <f:facet name="header">ReorderLevel</f:facet>
+            #{_product.reorderLevel}
+         </h:column>
+         <h:column>
+            <f:facet name="header">Discontinued</f:facet>
+            #{_product.discontinued}
+         </h:column>
+         <h:column>
+            <f:facet name="header">REST URL</f:facet>
+            <a href="#{request.contextPath}/rest/products/#{_product.productId}"> rest product #{_product.productId}</a>
+         </h:column>
+      </h:dataTable>
+   </ui:define>
+</ui:composition>

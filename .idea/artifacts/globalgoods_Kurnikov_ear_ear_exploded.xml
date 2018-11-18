@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="globalgoods_Kurnikov-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/globalgoods_Kurnikov-ear/target/globalgoods_Kurnikov-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="globalgoods_Kurnikov-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/globalgoods_Kurnikov-ear/target/globalgoods_Kurnikov-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/globalgoods_Kurnikov-ear/src/main/application" />
+      <element id="archive" name="globalgoods_Kurnikov-web.war">
+        <element id="artifact" artifact-name="globalgoods_Kurnikov-web:war exploded" />
+      </element>
+      <element id="archive" name="globalgoods_Kurnikov-ejb.jar">
+        <element id="artifact" artifact-name="globalgoods_Kurnikov-ejb:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/globalgoods_Kurnikov.iml" filepath="$PROJECT_DIR$/globalgoods_Kurnikov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/globalgoods_Kurnikov-ear/globalgoods_Kurnikov-ear.iml" filepath="$PROJECT_DIR$/globalgoods_Kurnikov-ear/globalgoods_Kurnikov-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/globalgoods_Kurnikov-ejb/globalgoods_Kurnikov-ejb.iml" filepath="$PROJECT_DIR$/globalgoods_Kurnikov-ejb/globalgoods_Kurnikov-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/globalgoods_Kurnikov-web/globalgoods_Kurnikov-web.iml" filepath="$PROJECT_DIR$/globalgoods_Kurnikov-web/globalgoods_Kurnikov-web.iml" />
+    </modules>
+  </component>
+</project>
